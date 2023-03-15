@@ -1,3 +1,5 @@
+# Solving Sudoku puzzles using AI techniques 
+
 Sudoku readme file 
  To explain the algorithm and how the program solves the puzzle.
  Program structure similar to eight queens revisited from the following moodle link: 
