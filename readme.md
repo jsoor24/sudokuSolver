@@ -51,13 +51,12 @@ Methods:
 
  - only_choice_function(self) {row/col/box}:
    Consider the following box
-   ---------------------
-   |[4,9]   2   [1,4,7]|
-   |                   |
-   | 3    [4,7]    5   |
-   |                   |
-   | 8    [7,9]    6   |
-   ---------------------
+   
+   |[4,9]|  2  |[1,4,7]|
+   | --- | --- | --- |
+   | 3   |[4,7]|  5  |
+   | 8   |[7,9]|  6  |
+   
    where the single numbers have already been set in final_values. 
    We know that a 1 must be present in this box and we can see that the only place the 1 could go is in the top right.
    The only_choice_box method would return [(0, 2, 1)] to indicate that 1 can be put in position (0, 2).
